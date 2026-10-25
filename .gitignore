@@ -1,0 +1,31 @@
+# Окружение, кеши и личные настройки
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+
+# Данные, веса, черновики и повторные запуски
+/data/
+/_local/
+/runs/
+*.zip
+*.pt
+*.npy
+*.npz
+*.parquet
+*_executed.ipynb
+
+# В репозитории только сводные результаты и графики
+/results/*
+!/results/metrics.csv
+!/results/details.json
+!/results/figures/
